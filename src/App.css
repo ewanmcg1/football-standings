@@ -55,3 +55,9 @@ bold{
 .standings-table tbody tr:hover {
   background-color: #e0e0e0; 
 }
+@media only screen and (max-width: 600px){
+  .standings-table th, .standings-table td {
+  font-size:8px;
+  }
+  
+}

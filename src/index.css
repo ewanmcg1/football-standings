@@ -1,14 +1,18 @@
-
 body {
+  font-size: 16px; /* Add 'px' unit to specify pixels */
   margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif!important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 12px;
+  }
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-

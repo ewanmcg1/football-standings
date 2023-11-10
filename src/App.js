@@ -14,7 +14,7 @@ function App() {
             method: 'GET',
             headers: {
               'x-rapidapi-host': 'api-football-v1.p.rapidapi.com',
-              'x-rapidapi-key': ~,
+              'x-rapidapi-key': '723d248c53msh89a83d89d689239p1e586bjsn0fa5f2f53c56',
             },
           }
         );
